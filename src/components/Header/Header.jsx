@@ -10,7 +10,7 @@ import Link from '@mui/material/Link';
 
 export default function Header(){
     return(
-    <Box sx={{flexGrow: 1, paddingRight: 5}} className='header'>
+    <Box className='header'>
       <Grid container spacing={2} alignItems="center">
       <Grid md={6} paddingTop="17px">
         <Item justifyContent="flex-start">

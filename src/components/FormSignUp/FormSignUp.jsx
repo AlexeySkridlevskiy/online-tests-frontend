@@ -24,6 +24,7 @@ export default function FormDialog() {
         <Dialog open={open} onClose={handleClose} fullWidth={true} maxWidth={'sm'}>
             <DialogTitle>Sign Up</DialogTitle>
         <DialogContent>
+
             <DialogContentText>
                 Please, enter the registration details below.
             </DialogContentText>
